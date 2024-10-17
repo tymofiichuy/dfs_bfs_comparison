@@ -12,7 +12,7 @@ int main(){
     call_queue queue;
     int counter;
 
-    for(int i = 50; i <= 400; i += 50){
+    for(int i = 50; i <= 250; i += 50){
         test_graph graph(i);
         for(int j = 25; j <= 100; j += 25){
             total_bfs_l = chrono::microseconds(0);
